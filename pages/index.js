@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 
+
 export default function Home() {
   return (
     <div className="container">
@@ -31,8 +32,8 @@ export default function Home() {
           <a href="https://www.instagram.com/ruaearte.mao/" className="card">
             <h3>Instagram</h3>
           </a>
-          <a href="#" className="card">
-            <h3>Whatsapp - +55 92 8149-3108</h3>
+          <a href="https://api.whatsapp.com/send?phone=5592981493108&text=Texto%20aqui" className="card">
+          <h3>Whatsapp</h3>
           </a>
           <a href="https://github.com/dev01d" className="card">
             <h3>Outro</h3>
@@ -45,12 +46,12 @@ export default function Home() {
       </main>
       <footer >
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://ruaearte.com.br"
           target="_blank"
           rel="noopener noreferrer"
         >
           {' '}
-          <img src="/vercel.svg" alt="@2021 -  R.U.A agência digital"  />
+          <img src="/vercel.svg" alt="R.U.A @agência digital 2021"  />
         </a>
       </footer>
 
@@ -139,8 +140,8 @@ export default function Home() {
         .card:hover,
         .card:focus,
         .card:active {
-          color: #0070f3;
-          border-color: #dbfe87;
+          color: #fff;
+          border-color: #8ac926;
           background-color:#8ac926;
         }
 
@@ -150,6 +151,7 @@ export default function Home() {
         }
 
         .footer {
+          color:#8ac926;
           width: 100%;
           height: 100px;
           border-top: 1px solid #eaeaea;
@@ -191,8 +193,7 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+          font-family:  Noto Sans, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
         }
 
